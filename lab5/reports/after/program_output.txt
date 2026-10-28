@@ -1,0 +1,10 @@
+R01 attendance %: 80
+R02 attendance %: 40
+Is 75% eligible? True
+Shortage list: ['R02']
+R02 long absence? True
+R02 latest date: 2026-09-06
+Register entries for 2026-09-01: ['R01', 'R02']
+Exported to: attendance.csv
+Reminder job: ['send_sms', '--shortage']
+ERP sync skipped (no credentials configured)
