@@ -17,6 +17,18 @@ the system.
 ├── lab3/
 │   └── Lab 3 files
 │
+├── lab4/
+│   └── Math Flashcards implementation
+│
+├── lab5/
+│   ├── attendance_tracker.py
+│   ├── issues.md
+│   ├── reflection.md
+│   ├── reports/
+│   │   └── Before/after static-analysis reports
+│   └── tests/
+│       └── Attendance tracker regression tests
+│
 ├── 61_SE_Lab1_SE_Problem Statement...
 │   └── Problem Statement
 │
@@ -131,12 +143,21 @@ The component diagram defines interfaces between these components and
 represents the flow of consumption, carbon-footprint, historical,
 target, and stored-data information.
 
+## Lab 5 -- Static Code Analysis
+
+Lab 5 applies Pylint, Bandit, and Flake8 to the student attendance tracker.
+The deliverables include the improved application, before-and-after reports,
+a documented issue/fix table, reflection answers, and regression tests.
+See [lab5/README.md](lab5/README.md) for setup and execution instructions.
+
 ## Repository Contents
 
   Item                        Description
   --------------------------- --------------------------------------------
   `lab2/`                     Lab 2 Jira-related deliverables
   `lab3/`                     Lab 3 architecture and design deliverables
+  `lab4/`                     Lab 4 Math Flashcards implementation
+  `lab5/`                     Lab 5 static-analysis deliverables
   Problem Statement           Original BPS61 problem statement
   UML Use Case Diagram        Use case model for the system
   `Requirements_Table.docx`   Requirements documentation
